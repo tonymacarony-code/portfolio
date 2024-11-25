@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className='text-center'>
 
-            <h2 className='mt-20 text-8xl font-medium tracking-[-0.06em] text-dark mb-20'>Let's make something cool together 🚀</h2>
+            <h2 className='mt-20 text-8xl font-medium tracking-[-0.06em] text-dark mb-20'>Let{`&apos;`}s make something cool together 🚀</h2>
             <a className='text-[8vw] text-center  tracking-[-0.06em] underline ' href="mailto:info@antonybodniev.com">info@antonybodniev.com</a>
 
 

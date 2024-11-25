@@ -1,9 +1,9 @@
 
 import Image from "next/image";
-import Link from "next/link";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "../ui/card";
+
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { Badge } from "../ui/badge";
-import { cn } from "../utils/utils";
+
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -27,15 +27,13 @@ interface Props {
 
 export function ProjectCard({
     title,
-    href,
+
     description,
-    dates,
+
     tags,
-    link,
+
     image,
-    video,
-    links,
-    className,
+
 }: Props) {
     return (
         <Card
