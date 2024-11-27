@@ -1,8 +1,9 @@
-import { FaReact, FaWordpress, FaHubspot, FaShopify, FaCss3, FaHtml5, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaReact, FaWordpress, FaHubspot, FaShopify, FaCss3, FaHtml5, FaLinkedin, FaGithub, FaSearchengin } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill, RiGatsbyFill } from "react-icons/ri";
 import { } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiRedux, SiChakraui, SiMui, SiTypescript, SiPrimereact, SiAstra, SiStorybook, SiReacthookform, SiPrisma } from "react-icons/si";
+import { MdWeb } from "react-icons/md";
 
 
 
@@ -40,28 +41,28 @@ interface Technology {
     icon: JSX.Element | string;
 }
 export const Technologies: Technology[] = [
-    { name: Tags.NextJS, icon: <RiNextjsFill /> },
-    { name: Tags.TailwindCSS, icon: <RiTailwindCssFill /> },
-    { name: Tags.React, icon: <FaReact /> },
-    { name: Tags.TypeScript, icon: <SiTypescript /> },
+    { name: Tags.HTML, icon: <FaHtml5 /> },
+    { name: Tags.CSS, icon: <FaCss3 /> },
     { name: Tags.JavaScript, icon: <IoLogoJavascript /> },
-    { name: Tags.Redux, icon: <SiRedux /> },
+    { name: Tags.React, icon: <FaReact /> },
+    { name: Tags.NextJS, icon: <RiNextjsFill /> },
+    { name: Tags.TypeScript, icon: <SiTypescript /> },
+    { name: Tags.TailwindCSS, icon: <RiTailwindCssFill /> },
     { name: Tags.MUI, icon: <SiMui /> },
     { name: Tags.ChakraUI, icon: <SiChakraui /> },
+    { name: Tags.WordPress, icon: <FaWordpress /> },
+    { name: Tags.Astra, icon: <SiAstra /> },
+    { name: Tags.Shopify, icon: <FaShopify /> },
+    { name: Tags.Redux, icon: <SiRedux /> },
     { name: Tags.PrimeReact, icon: <SiPrimereact /> },
     { name: Tags.ApexCharts, icon: 'apex' },
     { name: Tags.Highcharts, icon: 'highcharts' },
-    { name: Tags.WordPress, icon: <FaWordpress /> },
-    { name: Tags.Astra, icon: <SiAstra /> },
     { name: Tags.Gatsby, icon: <RiGatsbyFill /> },
     { name: Tags.Hubspot, icon: <FaHubspot /> },
-    { name: Tags.Shopify, icon: <FaShopify /> },
     { name: Tags.Storybook, icon: <SiStorybook /> },
     { name: Tags.ReactHookForm, icon: <SiReacthookform /> },
     { name: Tags.Prisma, icon: <SiPrisma /> },
     { name: Tags.NextAuth, icon: 'nextauth' },
-    { name: Tags.CSS, icon: <FaCss3 /> },
-    { name: Tags.HTML, icon: <FaHtml5 /> },
 ]
 
 export const socials = [
@@ -118,3 +119,44 @@ export const projects = [
         image: "./logo.svg",
     },
 ]
+
+export interface Service {
+    name: string;
+    image: React.ReactNode;
+    description: string;
+}
+
+
+
+export const services: Service[] = [
+    {
+        name: 'ReactJS Development',
+        image: <FaReact />,
+        description: 'I specialize in building powerful, scalable applications using ReactJS. I create high-performance Single Page Applications (SPA) and Progressive Web Apps (PWA) that provide an excellent user experience across all devices. I leverage advanced React features such as React Hooks, TypeScript, and modern state management solutions to ensure your apps run fast, secure, and efficiently.',
+    },
+    {
+        name: 'Custom Front-End Web Development Services',
+        image: <MdWeb />,
+        description: 'I build custom front-end solutions that offer fast loading times and interactivity. My approach to development involves using the latest technologies to create unique user interfaces that help your business effectively engage with your target audience. My goal is to create fast, responsive websites and apps that are adaptable across all devices and platforms.',
+    },
+    {
+        name: "HTML5/CSS3/SASS Development",
+        image: <FaHtml5 />,
+        description: 'With extensive experience in building dynamic web designs and mobile apps, I use a combination of HTML5, CSS3, and SASS to create visually appealing and functional user interfaces. I focus on writing clean, maintainable code that ensures optimal performance across all devices and screen sizes, providing flexibility and responsiveness for your site.',
+    },
+    {
+        name: 'WordPress Development',
+        image: <FaWordpress />,
+        description: 'As an expert in WordPress development, I create custom themes and plugins tailored to your business needs. I help you build a website that is not only visually unique but also highly functional. My aim is to make your WordPress site user-friendly, fast, and scalable, ensuring it meets your exact requirements.',
+    },
+    {
+        name: 'Shopify Development',
+        image: <FaShopify />,
+        description: 'I specialize in Shopify development, creating custom themes and plugins for building professional e-commerce websites. My goal is to help you optimize your online store for better user engagement, increased sales, and a seamless shopping experience. I ensure your Shopify store is fast, scalable, and customer-friendly.',
+    },
+    {
+        name: 'Micro Front-End Development',
+        image: <FaSearchengin />,
+        description: 'I use the micro front-end approach to create scalable and easily maintainable applications. This approach allows breaking down large applications into smaller, independently deployable units, speeding up development and updates. With this technology, I build flexible and adaptable web apps that integrate seamlessly with other systems and components.',
+    },
+];

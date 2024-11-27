@@ -35,8 +35,38 @@ body {
   width: 100%;
   position: relative;
 }
-/* Этот стиль добавляет эффект отражения цвета по краям */
-.box-shadow-effect {
-  box-shadow: inset 0 0 50px rgba(0, 0, 255, 0.5),
-    inset 0 0 100px rgba(0, 0, 255, 0.7), inset 0 0 200px rgba(0, 0, 255, 0.8);
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 400px;
+  height: 570px;
+}
+
+.swiper-slide {
+  @apply p-5 flex items-center justify-center rounded-14 text-dark bg-gray-100 relative border-dark border-2 text-5xl text-pretty;
+}
+
+.swiper-slide p {
+  @apply text-2xl;
+}
+
+.swiper-slide:nth-child(1) {
+  @apply p-0;
+}
+
+.swiper-slide:nth-child(5n) video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: contain;
+  transform: scale(1.8);
+  rotate: -90deg;
 }
