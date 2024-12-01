@@ -2,7 +2,7 @@
 import React from 'react';
 import { SectionTitle } from './SectionTitle';
 import FactCards from './FactCards';
-import { PiHandGrabbingThin } from "react-icons/pi";
+
 
 export const About = () => {
 

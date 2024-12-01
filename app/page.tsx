@@ -3,7 +3,7 @@ import { About } from '@/components/shared/About'
 import { Footer } from '@/components/shared/Footer'
 import Hero from '@/components/shared/Hero'
 import PortfolioGridItem from '@/components/shared/PortfolioGridItem'
-import { PortfolioItem } from '@/components/shared/PortfolioItem'
+
 
 
 import { SectionTitle } from '@/components/shared/SectionTitle'

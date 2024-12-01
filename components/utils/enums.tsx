@@ -1,18 +1,12 @@
-import { FaReact, FaWordpress, FaHubspot, FaShopify, FaCss3, FaHtml5, FaLinkedin, FaGithub, FaSearchengin } from "react-icons/fa";
+import { FaReact, FaWordpress, FaHubspot, FaShopify, FaHtml5, FaLinkedin, FaGithub } from "react-icons/fa";
 import { RiNextjsFill, RiTailwindCssFill, RiGatsbyFill } from "react-icons/ri";
-import { } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiRedux, SiChakraui, SiMui, SiTypescript, SiPrimereact, SiAstra, SiStorybook, SiReacthookform, SiPrisma } from "react-icons/si";
-import { MdWeb } from "react-icons/md";
-import { col, desc } from "motion/react-client";
-import { FcTemplate } from "react-icons/fc";
+
+import { SiRedux, SiChakraui, SiMui, SiTypescript, SiPrimereact, SiAstra, SiStorybook } from "react-icons/si";
+
 import { DiJqueryLogo } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
 import { FaJs } from "react-icons/fa";
 import { SiAlpinedotjs } from "react-icons/si";
-import { FcSettings } from "react-icons/fc";
-import { FcServices } from "react-icons/fc";
-
 
 export enum Tags {
     NextJS = "Next.js",
