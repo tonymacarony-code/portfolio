@@ -11,9 +11,9 @@ import Image from 'next/image';
 
 // import required modules
 import { EffectCards } from 'swiper/modules';
-import { FaArrowRight } from "react-icons/fa";
+
 import { FaRegHandPaper } from 'react-icons/fa';
-import Link from 'next/link';
+
 
 
 export default function FactCards() {
@@ -96,12 +96,7 @@ export default function FactCards() {
                     </div>
                     <iframe className='mt-4 rounded-xl' src="https://open.spotify.com/embed/album/6z1IIvWGNoeVVlYjY1BjQx?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </SwiperSlide>
-                {/* 8 */}
-                <SwiperSlide>
-                    <Link href="/projects" className="flex items-center justify-center h-full hover:text-gray-400 transition-all">
-                        <span className='font-bold gap-2 tracking-tighter flex justify-center items-center '>Learn more <span><FaArrowRight /></span></span>
-                    </Link>
-                </SwiperSlide>
+
 
                 <div className="explain-me-how ">
                     <div className="track">

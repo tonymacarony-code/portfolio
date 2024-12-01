@@ -1,5 +1,6 @@
 import React from 'react'
-import { socials } from '../utils/enums'
+import { socials } from '../utils/socials'
+
 
 
 export const Footer = () => {

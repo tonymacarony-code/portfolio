@@ -3,13 +3,12 @@ import { About } from '@/components/shared/About'
 import { Footer } from '@/components/shared/Footer'
 import Hero from '@/components/shared/Hero'
 import PortfolioGridItem from '@/components/shared/PortfolioGridItem'
-
-
-
 import { SectionTitle } from '@/components/shared/SectionTitle'
 import { ServiceItem } from '@/components/shared/ServiceItem'
+import { projects } from '@/components/utils/projects'
+import { services } from '@/components/utils/services'
 
-import { projects, services } from '@/components/utils/enums'
+
 import React from 'react'
 
 const Home = () => {
@@ -21,7 +20,7 @@ const Home = () => {
         <About />
         <section id='projects' className="pt-104 grid grid-cols-1 gap-4">
           <SectionTitle name='selected Works' />
-          <div className="mt-20 flex items-start gap-8">
+          <div className="mt-16 grid grid-cols-2 gap-x-8 gap-y-20">
             {projects.map((project, index) => (
               <PortfolioGridItem key={index} {...project} />
             ))}
@@ -30,7 +29,7 @@ const Home = () => {
 
         <section id='services' className='pt-40'>
           <SectionTitle name='services' />
-          <div className="mt-20 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-16 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service, index) => (
               <ServiceItem key={index} {...service} />
             ))}
