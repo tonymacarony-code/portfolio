@@ -26,6 +26,9 @@ export default {
       },
       boxShadow: {
         'buttonShadow': '0 1px 2px #1018280f, 0 1px 3px #1018281a'
+      },
+      spacing: {
+        '104': '6.5rem' // 104px
       }
     },
   },

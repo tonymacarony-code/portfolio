@@ -1,0 +1,53 @@
+.explain-me-how {
+  position: absolute;
+  z-index: 1;
+  bottom: -120px;
+  left: 50%;
+  height: auto;
+  transform: translateX(-50%);
+  width: 30%;
+  .text {
+    @apply pb-10 text-lg text-gray-500 font-medium tracking-tighter text-center;
+  }
+  .track {
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+  .hand {
+    position: absolute;
+    z-index: auto;
+    right: 0;
+    top: -25px;
+  }
+
+  .animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  @keyframes move-the-hand {
+    0% {
+      right: 0;
+      margin-right: 0px;
+      transform: rotate(0deg);
+    }
+    10% {
+      right: 0;
+      margin-right: 0px;
+      transform: rotate(0deg);
+    }
+    50% {
+      right: 100%;
+      margin-right: -25px;
+      transform: rotate(-30deg);
+    }
+    100% {
+      right: 0;
+      margin-right: 0px;
+    }
+  }
+  .move-the-hand {
+    animation-name: move-the-hand;
+  }
+}
