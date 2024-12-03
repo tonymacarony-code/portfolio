@@ -2,7 +2,7 @@
 import { About } from '@/components/shared/About'
 import { Footer } from '@/components/shared/Footer'
 import Hero from '@/components/shared/Hero'
-import PortfolioGridItem from '@/components/shared/PortfolioGridItem'
+import PortfolioGridItem from '@/components/shared/PortfolioItem'
 import { SectionTitle } from '@/components/shared/SectionTitle'
 import { ServiceItem } from '@/components/shared/ServiceItem'
 import { projects } from '@/components/utils/projects'

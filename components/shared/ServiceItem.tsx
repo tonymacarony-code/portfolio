@@ -5,7 +5,7 @@ export const ServiceItem: React.FC<Service> = ({ name, image, description, techn
     return (
         <div className="flex flex-col items-start gap-3 p-5 border border-[#e2e2e2] bg-light backdrop-blur-xl rounded-14">
             <div className='h-20 w-20 flex justify-center items-center rounded-lg text-7xl'>
-                <Image src={image} alt="hero" width={60} height={60} className="object-contain" />
+                <Image unoptimized src={image} alt="hero" width={60} height={60} className="object-contain" />
             </div>
             <h3 className="text-4xl font-bold tracking-[-0.06em]">{name}</h3>
             <p className="max-w-full text-pretty font-medium text-base">{description}</p>

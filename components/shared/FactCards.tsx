@@ -71,7 +71,7 @@ export default function FactCards() {
                 {/* 5 */}
                 <SwiperSlide>
                     <span className=' mt-5 font-bold tracking-tighter'>Music lover</span>
-                    <p className='mt-5'>Over the past year, I&apos;ve listened to <span className='font-bold'>75,761</span> minutes of songs in Spotify. My favorite genre is <b>metal</b>. Favorite metal band: <b>Rammstein</b></p>
+                    <p className='mt-5 text-pretty'>Over the past year, I&apos;ve listened to <span className='font-bold'>75,761</span> minutes of songs in Spotify. My favorite genre is <b>metal</b>. Favorite metal band: <b>Rammstein</b></p>
                     <p className='mt-2 font-bold'>My recently added song:</p>
                     <iframe className='mt-4 rounded-xl' src="https://open.spotify.com/embed/track/5Hh2VJj7bOWGsN0Jw6smwt?utm_source=generator&theme=0" width="100%" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 

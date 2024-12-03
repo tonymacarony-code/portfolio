@@ -1,4 +1,5 @@
 
+import Spline from '@splinetool/react-spline'
 import Link from 'next/link'
 import React from 'react'
 
@@ -6,7 +7,12 @@ import React from 'react'
 const Hero = () => {
     return (
 
-        <div className="h-screen px-20 pb-20 pt-12 flex flex-col justify-between w-full bg-gray-100">
+        // <div className=" px-20 pb-20 pt-12 flex flex-col justify-between w-full bg-gray-100">
+        <div className='h-screen overflow-hidden px-20 pb-20 pt-12 flex flex-col justify-between w-full relative bg-white bg-opacity-50'>
+            <Spline className='absolute w-full h-full top-0 left-0 -z-10 '
+                scene="https://prod.spline.design/L0sktqsNVoFvb4tF/scene.splinecode" >
+            </Spline>
+
             <div className="flex justify-between items-start">
                 <nav className="p-1.5 flex items-center rounded-14 bg-light text-lg font-medium">
                     <Link href="#about" className='   px-4 py-2 hover:text-gray-400 '>About</Link>
@@ -18,9 +24,11 @@ const Hero = () => {
                     <span className='text-xl font-bold tracking-tighter text-white'>Hire me</span>
                 </a>
             </div>
-            <div className="text-[6.25vw] leading-[6.875vw] font-medium  tracking-[-0.06em] text-dark">
+            <div className="text-[6.25vw] leading-[6.875vw] font-medium  tracking-[-0.06em] text-white mix-blend-difference">
                 I’m Antony —  a front end developer, creating websites, applications & web services.
             </div>
+
+
         </div>
 
     )

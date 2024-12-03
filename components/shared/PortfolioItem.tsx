@@ -5,13 +5,15 @@ interface Props {
     title: string,
     description: string,
     image: string,
+    link: string
 }
-const PortfolioGridItem: React.FC<Props> = ({ title,
+const PortfolioItem: React.FC<Props> = ({ title,
     description,
     image,
+    link
 }) => {
     return (
-        <a className='flex flex-col hover:scale-105 transition-all duration-300 ease-out' href='https://github.com'>
+        <a className='flex flex-col hover:scale-105 transition-all duration-300 ease-out' href={link}>
             <div className="relative w-full pb-[56.25%]">
                 <Image src={image} alt="hero" fill className="absolute top-0 left-0 w-full h-full object-cover" />
             </div>
@@ -21,4 +23,4 @@ const PortfolioGridItem: React.FC<Props> = ({ title,
     )
 }
 
-export default PortfolioGridItem
+export default PortfolioItem
