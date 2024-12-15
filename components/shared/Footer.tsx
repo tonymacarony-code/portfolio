@@ -1,6 +1,5 @@
 import React from 'react'
 import { socials } from '../utils/socials'
-import Spline from '@splinetool/react-spline'
 
 
 
