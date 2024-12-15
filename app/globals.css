@@ -45,16 +45,20 @@ body {
 }
 
 .swiper {
-  width: 400px;
-  height: 570px;
+  @apply w-[80%] h-[475px]  md:w-[400px] md:h-[570px];
 }
 
 .swiper-slide {
   @apply p-5 flex items-center justify-center rounded-14 text-dark bg-gray-100 relative border-dark border-2 text-5xl text-pretty;
 }
-
+.gif {
+  @apply w-9/12 md:w-full;
+}
+.gif.papuga {
+  @apply w-7/12;
+}
 .swiper-slide p {
-  @apply text-2xl;
+  @apply text-xl md:text-2xl;
 }
 
 .swiper-slide:nth-child(1) {
