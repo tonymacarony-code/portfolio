@@ -45,7 +45,7 @@ body {
 }
 
 .swiper {
-  @apply w-[80%] h-[415px]  md:w-[400px] md:h-[570px];
+  @apply w-[300px] h-[415px]  md:w-[400px] md:h-[570px];
 }
 
 .swiper-slide {
