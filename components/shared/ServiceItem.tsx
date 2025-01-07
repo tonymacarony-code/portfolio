@@ -18,7 +18,7 @@ export const ServiceItem: React.FC<Service> = ({ name, image, description, techn
                             {tech.icon}
 
                             {/* Tooltip */}
-                            <div className="absolute left-1/2 transform -translate-x-1/2 top-full mb-2 w-max px-2 py-1 text-sm font-medium text-white bg-dark rounded opacity-0 group-hover:opacity-100 transition-opacity">
+                            <div className="z-20 absolute left-1/2 transform -translate-x-1/2 top-full mb-2 w-max px-2 py-1 text-sm font-medium text-white bg-dark rounded opacity-0 group-hover:opacity-100 transition-opacity">
                                 {tech.name}
                             </div>
                         </div>

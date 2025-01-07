@@ -45,7 +45,7 @@ body {
 }
 
 .swiper {
-  @apply w-[80%] h-[475px]  md:w-[400px] md:h-[570px];
+  @apply w-[80%] h-[415px]  md:w-[400px] md:h-[570px];
 }
 
 .swiper-slide {
@@ -57,8 +57,12 @@ body {
 .gif.papuga {
   @apply w-7/12;
 }
+
+.gif.webdev {
+  @apply w-7/12 md:w-9/12;
+}
 .swiper-slide p {
-  @apply text-xl md:text-2xl;
+  @apply text-lg md:text-2xl;
 }
 
 .swiper-slide:nth-child(1) {

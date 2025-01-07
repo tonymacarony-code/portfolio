@@ -9,7 +9,7 @@ const Hero = () => {
 
         // <div className=" px-20 pb-20 pt-12 flex flex-col justify-between w-full bg-gray-100">
         // bg - white bg - opacity - 50
-        <div className='h-[calc(100vh+80px)]  md:h-[calc(100vh+80px)] overflow-hidden px-6 md:px-20 pb-40 pt-12 flex flex-col justify-between w-full relative '>
+        <div className='h-[calc(100vh+80px)]  md:h-[calc(100vh+80px)] overflow-hidden px-6 md:px-20 pb-40 pt-6 md:pt-12 flex flex-col justify-between w-full relative '>
             <div className="bg-white bg-opacity-30 absolute w-full h-full top-0 left-0">
                 <Spline className=' w-full h-full top-0 left-0 -z-10 '
                     scene="https://prod.spline.design/L0sktqsNVoFvb4tF/scene.splinecode" >
@@ -29,7 +29,7 @@ const Hero = () => {
                     <span className='text-xl font-bold tracking-tighter text-white'>Hire me</span>
                 </a>
             </div>
-            <div className="text-[10vw] md:text-[6.25vw] md:leading-[6.875vw] font-medium  tracking-[-0.06em] text-white mix-blend-difference">
+            <div className="text-[11.5vw] md:text-[6.25vw] md:leading-[6.875vw] font-medium  tracking-[-0.06em] text-white mix-blend-difference">
                 I’m Antony —  a front end developer, creating websites, applications & web services.
             </div>
 

@@ -1,15 +1,15 @@
 export const projects = [
+    // {
+    //     title: "California Kitchen Pizza",
+    //     link: "https://github.com/abhisheksingh17/portfolio",
+    //     image: "/mock1.webp",
+    //     description: "A starter project for creating a blog with Next.js and Tailwind CSS.",
+    // },
     {
-        title: "Project 1",
-        link: "https://github.com/abhisheksingh17/portfolio",
-        image: "/mock1.webp",
-        description: "A starter project for creating a blog with Next.js and Tailwind CSS.",
-    },
-    {
-        title: "Next.js blog starter",
-        description: "A starter project for creating a blog with Next.js and Tailwind CSS.",
-        link: "https://github.com/abhisheksingh17/nextjs-blog-starter",
-        image: "/mock1.webp",
+        title: "Higher Visibility",
+        description: "Digital Marketing Agency",
+        link: "https://www.highervisibility.com/",
+        image: "/hv.png",
     },
     {
         title: "Appointlent",
