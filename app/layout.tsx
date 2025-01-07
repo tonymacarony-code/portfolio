@@ -7,6 +7,8 @@ const manrope = Manrope({
 })
 export const metadata: Metadata = {
   title: "Anton Bodniev | Front End Developer",
+  description: "This is a modern and stylish site that reflects who I am and what I do. It’s all about showcasing my work, sharing my story, and connecting with like-minded people. Simple, clean, and easy to navigate — it’s designed to leave a lasting impression.",
+
 };
 
 export default function RootLayout({
