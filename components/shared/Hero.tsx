@@ -24,7 +24,7 @@ const Hero = () => {
                     <Link href="#projects" className=' px-4 py-2 hover:text-gray-400 '>Projects</Link>
                     <Link href="#services" className=' px-4 py-2 hover:text-gray-400 '>Services</Link>
                 </nav>
-                <a href="mailto:info@antonybodniev.com" className='flex text-base rounded-[0.625rem] py-4 px-8 bg-[#0155FF] shadow-buttonShadow  items-center gap-2 hover:bg-[#2269FF] transition-all ease-in-out'>
+                <a href="mailto:bodniev@gmail.com" className='flex text-base rounded-[0.625rem] py-4 px-8 bg-[#0155FF] shadow-buttonShadow  items-center gap-2 hover:bg-[#2269FF] transition-all ease-in-out'>
 
                     <span className='text-xl font-bold tracking-tighter text-white'>Hire me</span>
                 </a>
