@@ -340,6 +340,14 @@
     react-merge-refs "2.1.1"
     thumbhash "0.1.1"
 
+"@splinetool/runtime@^1.9.58":
+  version "1.9.58"
+  resolved "https://registry.yarnpkg.com/@splinetool/runtime/-/runtime-1.9.58.tgz#8ad3d2dc20f31d3cd0e6fa05e9e905964471a485"
+  integrity sha512-nIfF8YL286mwc4ogj/N1Y/OjIeZvKf9UVd7eOL6riatz6VGpoxFc+mqnxe4qMCrhC0DL4E9QD+WqiVKiINzNOQ==
+  dependencies:
+    on-change "^4.0.0"
+    semver-compare "^1.0.0"
+
 "@swc/counter@0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@swc/counter/-/counter-0.1.3.tgz#cc7463bd02949611c6329596fccd2b0ec782b0e9"
@@ -2161,6 +2169,11 @@ object.values@^1.1.6, object.values@^1.2.0, object.values@^1.2.1:
     define-properties "^1.2.1"
     es-object-atoms "^1.0.0"
 
+on-change@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/on-change/-/on-change-4.0.2.tgz#838129790f09dc2ed04284944bda6e82b92c10b8"
+  integrity sha512-cMtCyuJmTx/bg2HCpHo3ZLeF7FZnBOapLqZHr2AlLeJ5Ul0Zu2mUJJz051Fdwu/Et2YW04ZD+TtU+gVy0ACNCA==
+
 once@^1.3.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
@@ -2505,6 +2518,11 @@ scheduler@0.25.0-rc-66855b96-20241106:
   version "0.25.0-rc-66855b96-20241106"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.25.0-rc-66855b96-20241106.tgz#8bbb728eca4de5a5deca1f18370fbce41aee91d1"
   integrity sha512-HQXp/Mnp/MMRSXMQF7urNFla+gmtXW/Gr1KliuR0iboTit4KvZRY8KYaq5ccCTAOJiUqQh2rE2F3wgUekmgdlA==
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
+  integrity sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==
 
 semver@^6.3.1:
   version "6.3.1"
