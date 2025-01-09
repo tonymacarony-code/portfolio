@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import './drag-animation.css';
 import { GoogleTagManager } from '@next/third-parties/google'
+import Analytics from "@/components/shared/Analytics";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -20,12 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
+      <head>
+        <Analytics />
+      </head>
       <body
         className={`${manrope.className}  antialiased scroll-smooth`}
       >
         {children}
       </body>
-      <GoogleTagManager gtmId={'G-C265KL3GEY'} />
 
     </html >
   );
