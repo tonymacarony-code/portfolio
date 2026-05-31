@@ -6,6 +6,12 @@ export const projects = [
     //     description: "A starter project for creating a blog with Next.js and Tailwind CSS.",
     // },
     {
+        title: "DrillWorks | Home Services & Improvements",
+        description: "Handyman Service",
+        link: "https://www.drillworks-la.com/",
+        image: "/drill-works.jpg",
+    },
+    {
         title: "Higher Visibility",
         description: "Digital Marketing Agency",
         link: "https://www.highervisibility.com/",
@@ -19,7 +25,7 @@ export const projects = [
     }, {
         title: "Eventmate",
         description: "Ticketing App",
-        link: "https://github.com/abhisheksingh17/vue3-blog-starter",
+        link: "https://eventmate.live/",
         image: "/eventmate.svg",
     },
 ]
