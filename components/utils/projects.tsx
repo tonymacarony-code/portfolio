@@ -18,7 +18,7 @@ export const projects = [
         image: "/hv.png",
     },
     {
-        title: "Appointlent",
+        title: "Appointlet",
         description: "Appointment Booking App",
         link: "https://www.appointlet.com",
         image: "/ap.png",
